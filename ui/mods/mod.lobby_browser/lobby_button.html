@@ -1,0 +1,16 @@
+<div
+  id="lobby-button"
+  class="btn_std_gray"
+  data-bind="click: model.switchToLobbyBrowser, click_sound: 'default', rollover_sound: 'default'"
+>
+  <div class = "btn_std_label">Lobby Browser</div>
+</div>
+
+
+<script>
+
+
+  ko.cleanNode(document.getElementById("lobby-button"));
+  ko.applyBindings(model, document.getElementById("lobby-button"));
+
+</script>

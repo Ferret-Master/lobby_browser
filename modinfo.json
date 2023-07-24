@@ -1,0 +1,28 @@
+{
+    "context": "client",
+    "identifier": "com.pa.ferretmaster.lobby-browser",
+    "display_name": "Lobby Browser",
+    "description": "Adds a button to the lobby that lets you browse games",
+    "author": "Ferretmaster",
+    "version": "1.0",
+    "build": "115626",
+    "date": "2023-7-24",
+    "signature": "not yet implemented",
+    "forum": "",
+    "icon": "",
+    "priority": 100,
+    "category": [
+        "titans", "in-game","server"
+        
+    ],
+    
+    "scenes": {
+    "server_browser":[
+      "coui://ui/mods/mod.lobby_browser/server_browser.js"
+    ],
+    "new_game": [
+      "coui://ui/mods/mod.lobby_browser/start.js",
+      "coui://ui/mods/mod.lobby_browser/css/lobby_button.css"
+    ]
+	}
+}

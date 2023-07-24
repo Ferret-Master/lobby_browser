@@ -5,17 +5,16 @@
     "description": "Adds a button to the lobby that lets you browse games",
     "author": "Ferretmaster",
     "version": "1.0",
-    "build": "115626",
+    "build": "116982",
     "date": "2023-7-24",
     "signature": "not yet implemented",
-    "forum": "",
-    "icon": "",
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/3803903751083285662/",
+    "icon": "https://github.com/ferret-Master/lobby_browser/blob/main/lobbyBrowser.png?raw=true",
     "priority": 100,
     "category": [
         "titans", "in-game","server"
         
     ],
-    
     "scenes": {
     "server_browser":[
       "coui://ui/mods/mod.lobby_browser/server_browser.js"
